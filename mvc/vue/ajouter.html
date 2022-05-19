@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ajouter</title>
+</head>
+<body>
+        <center>
+            <p class="ensat">AJOUTER</p>
+        </center>
+
+        <center>
+       <!-- <p class="name" >Photo : </p>  
+          <form action="/mvc/controle/etu/ima.php" method="POST" >
+                <input  type="file" name="photo1" id="photo1"  >  
+                <input class="register"  type="submit" name="reg" value="upload">
+            </form>-->  
+
+            <form action="/mvc/controle/etu/ajouter.php" method="POST"  enctype="multipart/form-data">
+                <p class="name" >Nom : </p>
+                <input type="text" name="nom1" placeholder="Nom" required="required"> <br>
+                <p class="name" >Prenom : </p>
+                <input type="text" name="prenom1" placeholder="Prenom" required="required"> <br>
+                <p class="name" >CNE : </p>
+                <input type="text" name="cne1" placeholder="CNE" required="required"> <br>
+                <p class="name" >Adresse : </p>
+                <input type="text" name="adresse1" placeholder="Adresse" required="required"> <br>
+                <p class="name" >Ville: </p>
+                <input type="text" name="ville1" placeholder="Ville" required="required"> <br>
+                <p class="name" >E-mail : </p>
+                <input type="email" name="email1" placeholder="e-mail" required="required"> <br>
+                <p class="name" >Photo : </p>  
+                <input  type="file" name="photo1" id="photo1"  > 
+            <input class="register"  type="submit" name="register1" value="ajouter">
+            </form>
+        </center> 
+</body>
+</html>

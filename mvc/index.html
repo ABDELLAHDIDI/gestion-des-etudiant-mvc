@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ENSAT Platforme</title>
+</head>
+<body>
+  
+        <center>
+            <p class="ensat">ENSAT Platforme</p>
+            <p class="ensat">Espace prof</p>
+        </center>
+
+        <center>
+            <form action="/mvc/controle/prof/profin.php" method="POST" >
+                <p class="name" >Nom d'utulisateur : </p>
+                <input type="text" name="nomEtulisateur" required="required"> <br>
+                <p class="mp">Mot de passe : </p>
+                <input type="password" name="motDePasse" required="required"> <br><br><br>
+                <button class="register"  type="submit" name="entrer" value="1">sign-in</button>
+            </form>
+            <form action="/mvc/vue/profup.html" method="post">
+                <button class="register"  type="submit" >sign-up</button>
+            </form>
+        </center> 
+        
+</body>
+</html>

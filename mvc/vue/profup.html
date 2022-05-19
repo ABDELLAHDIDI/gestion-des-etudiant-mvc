@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sign-up</title>
+</head>
+<body>
+        <center>
+            <p class="ensat">Espace prof</p>
+            <p class="ensat">sign-up</p>
+        </center>
+
+        <center>
+            <form action="/mvc/controle/prof/profup.php" method="POST" >
+                <p class="name" >Nom : </p>
+                <input type="text" name="nom1" placeholder="Nom" required="required"> <br>
+                <p class="mp">Mot de passe : </p>
+                <input type="password" name="motdepasse1" placeholder="Mot de passe" required="required"> <br>
+                <p class="mp">Verifier le mot de passe : </p>
+                <input type="password" name="motdepasse11" placeholder="Verifier le mot de passe" required="required"> <br><br><br>
+                <button class="register"  type="submit" >sign-up</button>
+            </form>
+        </center> 
